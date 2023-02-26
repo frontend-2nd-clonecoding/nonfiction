@@ -1,0 +1,10 @@
+/* header */
+
+header {
+  display: flex;
+  height: 110px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 50;
+}

@@ -1,0 +1,51 @@
+/* category */
+.category {
+  width: 50%;
+  position: relative;
+  /* display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; */
+  left: 50px;
+  top: 20px;
+}
+
+/* category menu */
+
+.sub-menu {
+  height: 0;
+  overflow: hidden;
+  transition-duration: 0.8s;
+}
+.shop:hover .sub-menu {
+  box-sizing: border-box;
+  height: 270px;
+}
+.about:hover .sub-menu {
+  box-sizing: border-box;
+  height: 90px;
+}
+.contact:hover .sub-menu {
+  box-sizing: border-box;
+  height: 70px;
+}
+#valentine_item {
+  color: #e07d9f;
+}
+.item {
+  font-size: 18px;
+}
+.search {
+  margin-top: 45px;
+  position: relative;
+}
+#textInput {
+  border: none;
+  border-bottom: 1px solid;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 3px 0px;
+  font-size: 16px;
+}
+#textInput::placeholder {
+  color: black;
+}

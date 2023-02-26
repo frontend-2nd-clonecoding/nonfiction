@@ -1,0 +1,65 @@
+main {
+  margin: 100px 0px 40px 0px;
+  display: flex;
+  justify-content: center;
+}
+.detail_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.detail_header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+/* 위에 수정 */
+
+section.product_wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.product_img_wrapper {
+  width: 600px;
+}
+
+.small_slider {
+  display: flex;
+  width: 480px;
+  justify-content: space-evenly;
+}
+
+.product_purchase_wrapper {
+  width: 500px;
+}
+
+.review_wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recommend_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.product-reviewpaging {
+  display: flex;
+}
+.product-reviewpaging ol {
+  display: flex;
+}
+
+.product-relationlist > ul {
+  display: flex;
+  width: 1100px;
+}
+
+.thumbnail {
+  flex-wrap: wrap;
+}

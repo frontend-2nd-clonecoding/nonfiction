@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family_playfair: "Playfair Display", serif;
+}
+
+body > p > a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+}
+li > a {
+  text-decoration: none;
+  color: black;
+}
+header li > a:hover {
+  text-decoration: underline;
+}
+
+p > a {
+  text-decoration: none;
+  color: black;
+}
+
+p > a:hover {
+  text-decoration: underline;
+}
+
+/* hr */
+
+hr {
+  margin: 0px 50px;
+}
+
+/* aside */
+.sticker {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  right: 50px;
+  bottom: 50px;
+  vertical-align: middle;
+  z-index: 100;
+}
+.sticker_box {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+.sticker_box > a {
+  text-decoration: none;
+  color: black;
+}

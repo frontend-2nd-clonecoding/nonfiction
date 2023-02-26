@@ -1,0 +1,83 @@
+/* main */
+main {
+  margin: 100px 0px 40px 0px;
+  display: flex;
+  justify-content: center;
+}
+.login_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.login_header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.form-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginsubmit {
+  height: 40px;
+  margin: 10px 0px;
+  border: 1px solid;
+}
+
+button.loginsubmit {
+  background-color: white;
+}
+
+.forgotton {
+  display: flex;
+}
+
+.forgotton > li {
+  margin: 0;
+  padding-right: 6px;
+  text-decoration: none;
+}
+
+.forgotton > li > a {
+  text-decoration: none;
+}
+
+.login_btn_join {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.signsubmit {
+  height: 40px;
+  margin: 10px 0px;
+  border: 1px solid;
+  background-color: white;
+}
+.login_btn_join > .signsubmit {
+  background-color: black;
+  color: white;
+}
+.login_btn_kakao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login_btn_kakao > .signsubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_btn_kakao span {
+  padding-right: 7px;
+  padding-top: 3px;
+}
+.login_btn_kakao img {
+  width: 17px;
+}
+.coupon_explain {
+  font-size: 12px;
+}

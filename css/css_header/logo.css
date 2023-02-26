@@ -1,0 +1,7 @@
+/* header logo */
+.logo {
+  position: relative;
+  top: 20px;
+  width: 135px;
+  z-index: -1;
+}

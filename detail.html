@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>detail</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/marquee.css">
+    <link rel="stylesheet" href="./css/css_header/header.css">
+    <link rel="stylesheet" href="./css/css_header/category.css">
+    <link rel="stylesheet" href="./css/css_header/logo.css">
+    <link rel="stylesheet" href="./css/css_header/nav.css">
+    <link rel="stylesheet" href="css/css_main/main_product_detail.css">
+    <link rel="stylesheet" href="./css/css_footer/footer.css">
+    <link rel="stylesheet" href="./css/image.css">
+    <link rel="stylesheet" href="./css/css_detail/detail.css">
+    <link rel="stylesheet" href="./css/css_detail/toggle.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <p class="marquee1">
+      <a href="#">논픽션 선물하기 서비스를 이용해보세요</a>
+    </p>
+    <p class="marquee2">
+      <a href="#">[발렌타인데이 에디션] 리미티드 패키지 & 퍼퓸 파우치 증정</a>
+    </p>
+    <header>
+      <section class="category">
+        <div class="menu shop">
+          <p><a href="#" class="item">SHOP</a></p>
+          <div class="sub-menu">
+            <ul class="sub-menu-list">
+              <li><a href="#" class="item">SHOP ALL</a></li>
+              <li><a href="#" class="item">BEST SELLER</a></li>
+              <li><a href="#" id="valentine_item" class="item">VALENTINE EDITION</a></li>
+              <li><a href="#" class="item">PERFUME</a></li>
+              <li><a href="#" class="item">HOME FRAGRANCE</a></li>
+              <li><a href="#" class="item">BODY CARE</a></li>
+              <li><a href="#" class="item">HAND CARE</a></li>
+              <li><a href="#" class="item">LIP CARE</a></li>
+              <li><a href="#" class="item">GIFT SET</a></li>
+              <li><a href="#" class="item">HOME OBJECTS</a></li>
+              <li><a href="#" class="item">ACC</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu about">
+          <p><a href="#" class="item">ABOUT</a></p>
+          <div class="sub-menu">
+            <ul class="sub-menu-list">
+              <li><a href="#" class="item">OUR STORY</a></li>
+              <li><a href="#" class="item">CAMPAIGN</a></li>
+              <li><a href="#" class="item">PRESS</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="stores">
+          <p><a href="#" class="item">STORES</a></p>
+        </div>
+        <div class="menu contact">
+          <p><a href="#" class="item">CONTACT</a></p>
+          <div class="sub-menu">
+            <ul class="sub-menu-list">
+              <li><a href="#" class="item">CONTACT US</a></li>
+              <li><a href="#" class="item">CAREERS</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="search">
+          <input id="textInput" type="text" placeholder="SEARCH"/>
+        </div>
+      </section>
+      <section class="logo">
+        <a href="#"> <img src="./img/half_logo.svg" alt="logo" /></a>
+      </section>
+      <section class="nav">
+        <div class="nav_wrapper">
+          <div class="nav_language">
+            <label class="language_toggle" for="toggle">
+              <div class="menu_language">
+              <p>KR</p>
+              <span class="material-symbols-outlined"> expand_more </span>
+            </div>
+          </label>
+          <input id="toggle"type="checkbox">
+            <div class="sub_language">
+              <ul class="sub_language_list">
+                <li><a href="#" class="item">EN</a></li>
+                <li><a href="#" class="item">JP</a></li>
+              </ul>
+            </div>
+          </div>
+          <p><a href="#">LOGIN</a></p>
+          <p><a href="#">CART (0)</a></p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div class="detail_wrapper">
+        <div class="detail_header">
+          Shop All
+          <span class="material-symbols-outlined">
+            chevron_right
+          </span>
+        </div>
+            <section class="product_wrapper">
+                <section class="product_img_wrapper">
+                    <div class="big_slider">
+                        <div class="service_explain_header">
+                            <button class="left"></button>
+                            <div class="big_image"><img src="./img/product_big.jpg" alt=""></div>
+                            <button class="right"></button>
+                        </div>
+                    </div>
+                    <div class="small_slider">
+                        <div class="small_image"><img src="./img/product_small1.jpg" alt=""></div>
+                        <div class="small_image"><img src="./img/product_small2.jpg" alt=""></div>
+                        <div class="small_image"><img src="./img/product_small3.jpg" alt=""></div>
+                        <div class="small_image"><img src="./img/product_small4.jpg" alt=""></div>
+                        <div class="small_image"><img src="./img/product_small5.jpg" alt=""></div>
+                    </div>
+                    <div class="service_explain">
+                      <p>무료 선물 포장 서비스</p>
+                        <div class="service_explain_contents">
+                          <p>
+                            주문서 단계에서 '무료 선물 포장' 옵션 선택 가능
+                            <br>
+                            네이버페이, 악세사리 단품 구매 시 포장 서비스 선택 불가
+                            <br>
+                            기프트 박스 포장이 기본 제공되는 상품에는 추가 선물 포장 서비스 제공 불가</p>
+                        </div>
+                    </div>
+                </section>
+            <section class="product_purchase_wrapper">
+                    <div class="product_header">
+                        <div class="product_title">GENTLE NIGHT</div>
+                        <div class="product_size">100ML</div>
+                        <div class="product_sort">Perfume</div>
+                    </div>
+                    <div class="product_detail">
+                      Main Note
+                      스웨이드, 화이트 티, 무화과, 모스, 시더우드, 머스크
+                      <br>
+                      <br>
+                      "달콤한 스웨이드와 차분한 시더우드, 바닐라와 머스크가 어우러진 포근함과 중성성."  
+                      <br>
+                      <br>
+                      정물의 상. 구조적 섬세함과 우아한 양면성.
+                      <br>
+                      달콤함 속에 깃든 솔직함과 중성성. 젠틀 나잇은 모든 사물 안에 존재하는 양면성을 드라마틱하게 투영한다. 낮과 밤의 온도, 직선과 곡선의 조화, 엄격함과 관대함이 교차하는 표정의 변화처럼 젠틀 나잇의 향기도 시작부터 잔향까지 섬세하게 변주된다. 그린티와 화이트 플라워 부케의 여린 달콤함이 지나간 자리에 우드, 모스, 스웨이드 계열의 심플하고 상쾌한 중성성이 깃들고, 다시 바닐라와 머스크가 잔잔하게 피어오르며 밤의 공간을 부드럽게 물들인다. 
+                      <br>
+                      <br>
+
+                      *주문 시 선물포장 옵션을 선택하는 경우 스페클 디자인의 각대봉투 선물포장 서비스가 제공됩니다.
+                      <br>
+
+                      * 쇼핑백은 별도 유상 판매하고 있습니다.
+                      (ACC 메뉴에서 구매 가능)
+                    </div>
+                    <div class="product_toggle">
+
+                    </div>
+                       
+                    <div class="option_box">
+                      <select name="" id="option-select">
+                        <option value="">Select Option</option>
+                        <option value="">-------------</option>
+                        <option value="">엽서 : Thank you</option>
+                        <option value="">엽서 : Happy Birthday</option>
+                        <option value="">엽서 : Congratulations</option>
+                        <option value="">선택안함</option>
+                      </select>
+                    
+                    </div>
+                    <div class="engrave_check">
+                      <input type="checkbox" name="" id="engrave">
+                      <label for="engrave"><p>각인 문구 신청[선택]</p></label>
+                    </div>
+                    <div class="input_add-to-cart">
+                      <button id="">
+                        <span>Add to Cart</span>
+                        <span>128,000 KRW</span>
+                      </button>
+                    </div>
+                    <div class="input_gift">
+                      <button id="">선물하기</button>
+                    </div>
+                    <div class="naver_widget">전자결제 시스템 추가</div>
+                    <div class="total_review_btn"><a>325 Reviews</a></div>
+                    
+            </section>
+            </section>
+            <section class="review_wrapper">
+              <h4>Reviews</h4>
+              <p>텍스트 후기 : 500 / 포토 후기:1,000
+              <br>
+              매월 베스트 후기 3부을 선정하여 10,000점을 적립해 드립니다.
+              </p>
+              <div class="review_btn">
+                <button id="btn_write">WRITE</button>
+                <button id="btn_view">VIEW ALL</button>
+              </div>
+              <div class="product-board-list">
+                  <table summary class>
+                    <colgroup>
+                      <col style="width: 70px;">
+                      <col style="width: auto;">
+                      <col style="width: 100px">
+                      <col style="width: 100px">
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Subject</th>
+                        <th scope="col" class="alignright">Writer</th>
+                        <th scope="col" class="alignright">Date</th>
+                      </tr>
+                    </thead>
+                    <tbody class="center">
+                      <tr>
+                        <td width="90px">1325</td>
+                        <td width="640px"><a href="#">만족</a></td>
+                        <td width="120px" class="alignright">노****</td>
+                        <td width="120px" class="alignright">2023-02-15</td>
+                      </tr>
+                      <tr>
+                        <td>1324</td>
+                        <td><a href="#">만족</a></td>
+                        <td class="alignright">네****</td>
+                        <td class="alignright">2023-02-09</td>
+                      </tr>
+                      <tr>
+                        <tr>
+                          <td>1323</td>
+                          <td><a href="#">만족</a></td>
+                          <td class="alignright">네****</td>
+                          <td class="alignright">2023-02-07</td>
+                        </tr>
+                      </tr>
+                      <tr>
+                        <tr>
+                          <td>1322</td>
+                          <td><a href="#">만족</a></td>
+                          <td class="alignright">네****</td>
+                          <td class="alignright">2023-02-03</td>
+                        </tr>
+                      </tr>
+                      <tr>
+                        <tr>
+                          <td>1321</td>
+                          <td><a href="#">만족</a></td>
+                          <td class="alignright">네****</td>
+                          <td class="alignright">2023-01-29</td>
+                        </tr>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+              <div class="product-reviewpaging">
+                <a href="#">Prev</a>
+                <ol>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                </ol>
+                <a href="#">Next</a>
+              </div>
+            </section>
+            <section class="recommend_wrapper">
+              <div class="recommend-title">Recommended</div>
+              <div class="product-relationlist">
+                <ul class="thumbnail">
+                  <li class="col33">
+                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-info">
+                      <div>
+                        <span>DISCOVERY EDP SET</span>
+                      </div>
+                      <div class="thumbnail_price">
+                        <span>40,000KRW</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col33">
+                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-info">
+                      <div>
+                        <span>GENTLE NIGHT PERFUME</span>
+                      </div>
+                      <div class="thumbnail_price">
+                        <span>128,000KRW</span>
+                      </div>                      
+                    </div>
+                  </li>
+                  <li class="col33">
+                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-info">
+                      <div>
+                        <span>GENTLE NIGHT BODY LOTION</span>
+                      </div>
+                      <div class="thumbnail_price">
+                        <span>36,000KRW</span>
+                      </div>
+                  </li>
+                  <li class="col33">
+                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-info">
+                      <div>
+                        <span>GENTLE NIGHT BODY LOTION</span>
+                      </div>
+                      <div class="thumbnail_price">
+                        <span>36,000KRW</span>
+                      </div>
+                  </li>
+                  <li class="col33">
+                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-info">
+                      <div>
+                        <span>GENTLE NIGHT BODY LOTION</span>
+                      </div>
+                      <div class="thumbnail_price">
+                        <span>36,000KRW</span>
+                      </div>
+                  </li>
+                  <li class="col33">
+                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-info">
+                      <div>
+                        <span>GENTLE NIGHT BODY LOTION</span>
+                      </div>
+                      <div class="thumbnail_price">
+                        <span>36,000KRW</span>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div id="flexstart">
+          <div class="footer-items">
+            <h3>CUSTOMER SERVICE</h3>
+            <ul>
+              <p id="time">
+              <p id="number"><span class="material-symbols-outlined">
+                call
+                </span>1666-7891</p>
+              <p class="schedule"><span class="material-symbols-outlined">
+                schedule
+                </span>13:30 ~ 17:30</p>
+              <p class="schedule"><span class="material-symbols-outlined">
+                done
+                </span>토, 일요일 및 공휴일 휴무</p>
+            </p>
+          </ul>
+            <div class="footer-item">
+              <a href="#">이용약관</a> | <a href="#">개인정보처리방침</a> |
+              <a href="#">사업자 정보 확인</a>
+            </div>
+          </div>
+            
+        </div>
+        <div class="flexend">
+          <div class="footer-items">
+            <h3>
+              MEMBERSHIP<br />
+              BENEFIT
+            </h3>
+            <ul>
+              <li>
+                <a href="#">공식 온라인 스토어 혜택</a>
+              </li>
+              <li><a href="#">무료 시향지 신청</a></li>
+            </ul>
+          </div>
+          <div class="footer-items">
+            <h3>INFO</h3>
+            <ul>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">채용</a></li>
+              <li><a href="#">자주묻는 질문</a></li>
+              <li>
+                <a href="#">배송 & 교환 / 반품</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-items">
+            <h3>CONTACT US</h3>
+            <ul>
+              <li><a href="#">주문조회</a></li>
+              <li><a href="#">문의하기</a></li>
+              <li><a href="#">기업구매 문의</a></li>
+              <li><a href="#">고객 센터</a></li>
+              <li><a href="#">매장안내</a></li>
+            </ul>
+          </div>
+          <div class="footer-items">
+            <h3>SOCIAL</h3>
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Pinterest</a></li>
+              <li><a href="#">Kakao</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+
+    <aside class="sticker">
+      <div class="sticker_box"><a href="#">1:1<br>TALK</a></div>
+    </aside>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+/* header nav */
+.nav {
+  width: 50%;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  right: 50px;
+  top: 20px;
+}
+.nav_wrapper {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_language {
+  display: flex;
+  flex-direction: column;
+}
+.menu_language {
+  display: flex;
+}
+.menu_language > p:hover {
+  text-decoration: underline;
+}
+input#toggle {
+  display: none;
+}
+.sub_language {
+  display: none;
+}
+input#toggle:checked + .sub_language {
+  display: block;
+}
+
+.sub_language_list > li {
+  margin: 0;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
+}
