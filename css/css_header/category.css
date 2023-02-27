@@ -2,12 +2,12 @@
 .category {
   width: 50%;
   position: relative;
-  /* display: flex; 
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column; */
   left: 50px;
   top: 20px;
+}
+
+#category_icon {
+  display: none;
 }
 
 /* category menu */

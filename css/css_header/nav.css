@@ -7,6 +7,12 @@
   right: 50px;
   top: 20px;
 }
+
+#login_icon,
+#cart-icon {
+  display: none;
+}
+
 .nav_wrapper {
   width: 270px;
   display: flex;
