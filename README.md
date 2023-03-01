@@ -3,7 +3,10 @@
 [project: 쇼핑몰 클론 코딩]
 ===========================
 
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"> 
+<br><br>
 프론트엔드 동료학습 쇼핑몰 클론 코딩 레포지토리입니다.
+<br><br>
 
 Team Member
 ===========
