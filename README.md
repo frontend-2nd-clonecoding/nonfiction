@@ -1,6 +1,6 @@
 ![Blue Yellow Retro Quotes Twitter Header](https://user-images.githubusercontent.com/108272222/222105783-62ab729e-6891-4d3b-83b8-5f54066478cf.gif)
 
-[project: 쇼핑몰 클론 코딩]
+project: 쇼핑몰 클론 코딩
 ===========================
 
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"> 
