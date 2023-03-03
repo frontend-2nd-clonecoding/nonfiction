@@ -83,5 +83,38 @@
     margin: 30px 0px !important;
     min-width: 300px !important;
   }
-  /* sticker */
+
+  /* detail */
+  .product_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product_purchase_wrapper {
+    margin-top: 90px;
+  }
+
+  .service_explain {
+    display: none;
+  }
+
+  .service_explain_media {
+    display: block;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .review_wrapper {
+    width: 100%;
+  }
+  .thumbnail {
+    width: 100%;
+  }
+
+  .product-board-list > table {
+    width: 100%;
+  }
 }
