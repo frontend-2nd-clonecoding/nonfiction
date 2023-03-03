@@ -55,6 +55,11 @@ select.opt_select {
   height: 30px;
 }
 
+/* service_explain_media */
+.service_explain_media {
+  display: none;
+}
+
 #input_add-to-cart {
   width: 400px;
   height: 45px;
@@ -159,19 +164,26 @@ select.opt_select {
 
 .recommend_wrapper {
   display: flex;
-  width: 950px;
+  width: 100%;
   flex-direction: column;
+  justify-content: center;
+}
+
+.product-relationlist {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+  width: 80%;
 }
 
 .recommend-title {
   text-align: center;
   font-size: 20px;
   margin: 140px 0px 60px 0px;
-}
-
-.thumbmail {
-  display: grid;
-  grid-template-columns: repeat * 3 (1fr);
 }
 
 .col33 {
