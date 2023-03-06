@@ -93,31 +93,50 @@ li:hover {
   height: 600px;
 }
 
-#right {
-  /* position: relative; */
-  list-style: none;
+/* header nav */
+.nav {
+  width: 50%;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+
+#login_icon,
+#cart-icon {
+  display: none;
+}
+
+.nav_wrapper {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_language {
+  display: flex;
+  flex-direction: column;
+}
+.menu_language {
   display: flex;
 }
-
-#right > li {
-  padding-left: 3em;
+.menu_language > p:hover {
+  text-decoration: underline;
 }
-
-#right:hover {
-  cursor: pointer;
+input#toggle {
+  display: none;
 }
-
-.dropbtn {
-  border: none;
-  background-color: none;
+.sub_language {
+  display: none;
 }
-
-.dropdown:hover .dropdown-content {
+input#toggle:checked + .sub_language {
   display: block;
 }
 
-#login_link {
-  margin: 0px 20px;
+.sub_language_list > li {
+  margin: 0;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
 }
 
 /* 로고 */
