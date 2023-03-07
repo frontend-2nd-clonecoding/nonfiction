@@ -36,61 +36,60 @@ body #link:hover {
 
 header {
   position: sticky;
-  position: -webkit-sticky;
   top: 0;
   z-index: 100;
-}
-
-li:hover {
-  text-decoration: underline;
 }
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
-.list {
-  /* position: relative; */
-  /* top: 0; */
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  box-sizing: border-box;
-  width: 100%;
+/* category */
+.category {
+  position: sticky;
   font-family: "Playfair Display", serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: white;
-  padding: 20px 50px 0 50px;
-  text-decoration: none;
-  margin: 0 auto;
 }
 
-#left > li:nth-child(3),
-:nth-child(4):hover {
-  cursor: pointer;
-}
+/* category menu */
 
-#shop {
-  position: relative;
-  /* touch-action: manipulation; */
-}
-
-#shoplist {
-  /* overflow: hidden;
-  height: 0; */
-}
-
-#shoplist > li {
-  transition: height 0.2s ease;
+.sub-menu {
+  background-color: transparent;
   height: 0;
-  position: absolute;
   overflow: hidden;
+  transition-duration: 0.8s;
 }
-
-#shop:hover > #shoplist > li {
+.shop:hover .sub-menu {
   box-sizing: border-box;
-  height: 600px;
+  height: 270px;
+}
+.about:hover .sub-menu {
+  box-sizing: border-box;
+  height: 90px;
+}
+.contact:hover .sub-menu {
+  box-sizing: border-box;
+  height: 70px;
+}
+#valentine_item {
+  color: #e07d9f;
+}
+.item {
+  font-size: 18px;
+}
+.search {
+  margin-top: 45px;
+  position: relative;
+}
+#textInput {
+  border: none;
+  font-family: "Playfair Display", serif;
+  border-bottom: 1px solid;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 3px 0px;
+  font-size: 16px;
+}
+#textInput::placeholder {
+  color: black;
 }
 
 /* header nav */
@@ -99,6 +98,7 @@ li:hover {
   display: flex;
   position: relative;
   justify-content: flex-end;
+  font-family: "Playfair Display", serif;
 }
 
 #login_icon,
@@ -140,16 +140,6 @@ input#toggle:checked + .sub_language {
 }
 
 /* 로고 */
-header > div > div > a {
-  /* position: absolute; */
-  /* position: relative; */
-  /* z-index: 100; */
-
-  /* display: inline-block; */
-  /* margin: 0 auto; */
-  /* transform: translateX(50%); */
-  /* transform: translate(-50%); */
-}
 
 .logo > a {
   /* background: none !important; */
@@ -171,10 +161,8 @@ header > div > div > a {
 }
 
 main {
-  /* padding-top: 0 !important; */
-  /* display: inline-block; */
-  position: relative;
-  top: -174px;
+  position: absolute;
+  top: 60px;
   width: 100%;
 }
 
@@ -184,27 +172,8 @@ main {
   width: 100%;
 }
 
-select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  border: none;
-  font-family: "Playfair Display", serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-}
-
 .allcard {
-  /* width: 100%; */
-  /* height: 340px; */
   display: flex;
-  /* object-fit: cover; */
-  /* text-align: center; */
-  /* flex-direction: row; */
-  /* margin: -1px auto; */
-  /* align-items: flex-start; */
-  /* margin-bottom: 100px; */
-  /* object-position: 200%; */
 }
 
 .allcard > div {
@@ -213,7 +182,6 @@ select {
 }
 
 .card3 {
-  position: absolute;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -243,7 +211,6 @@ select {
 }
 
 .more {
-  /* margin: 100px; */
   width: 100%;
   margin: 100px 0;
   text-align: center;
@@ -270,24 +237,15 @@ select {
   background-color: #d7d7d7;
   border: 1px solid #d7d7d7;
   border-radius: 50%;
-  /* display: inline-block; */
-  /* position: absolute; */
   right: 48px;
   bottom: 48px;
   position: fixed;
-  /* transform: translate(-50%); */
   text-align: center;
-  /* display: flex; */
   justify-self: center;
   align-items: center;
-  /* line-height: 22px; */
   vertical-align: middle;
   padding-top: 15px;
 }
-
-/* .talktext {
-  margin-top: 500px;
-} */
 
 .bottom-menu {
   max-width: 100%;
