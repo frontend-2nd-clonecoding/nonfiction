@@ -78,12 +78,23 @@ header {
   padding: 10px 0;
   padding-bottom: 10px;
   height: 30px;
+}
+
+.category .category-hover {
   overflow: hidden;
   transition: 0.5s;
 }
 
-.category .category-li:hover {
+.category .category-hover:hover {
   height: 300px;
+}
+
+.category-main:hover {
+  text-decoration: underline;
+}
+
+.category-sub a:hover {
+  text-decoration: underline;
 }
 
 .category-li ul li {
