@@ -8,6 +8,11 @@ project: 쇼핑몰 클론 코딩
 프론트엔드 동료학습 쇼핑몰 클론 코딩 레포지토리입니다.
 <br><br>
 
+배포링크
+============================
+ https://frontend-2nd-clonecoding.github.io/nonfiction/
+ <br><br>
+
 Team Member
 ===========
 [정소연](https://github.com/mozjsy)
