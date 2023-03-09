@@ -18,10 +18,13 @@
     <link rel="stylesheet" href="./css/css_detail/toggle.css">
     <link rel="stylesheet" href="./css/mediaquery.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./css/css_detail/detail_accodian-menu.css">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script async src="detail_accodian-menu.js"></script>
   </head>
   <body>
     <p class="marquee1">
@@ -123,16 +126,16 @@
                     <div class="big_slider">
                         <div class="service_explain_header">
                             <button class="left"></button>
-                            <div class="big_image"><img src="./img/product_big.jpg" alt=""></div>
+                            <div class="big_image"><img src="./img/thumbnail1.jpeg" alt=""></div>
                             <button class="right"></button>
                         </div>
                     </div>
                     <div class="small_slider">
-                        <div class="small_image"><img src="./img/product_small1.jpg" alt=""></div>
-                        <div class="small_image"><img src="./img/product_small2.jpg" alt=""></div>
-                        <div class="small_image"><img src="./img/product_small3.jpg" alt=""></div>
-                        <div class="small_image"><img src="./img/product_small4.jpg" alt=""></div>
-                        <div class="small_image"><img src="./img/product_small5.jpg" alt=""></div>
+                        <div class="small_image"><img src="./img/thumbnail2.jpeg" alt=""></div>
+                        <div class="small_image"><img src="./img/thumbnail2.jpeg" alt=""></div>
+                        <div class="small_image"><img src="./img/thumbnail2.jpeg" alt=""></div>
+                        <div class="small_image"><img src="./img/thumbnail2.jpeg" alt=""></div>
+                        <div class="small_image"><img src="./img/thumbnail2.jpeg" alt=""></div>
                     </div>
                     <div class="service_explain">
                       <p>무료 선물 포장 서비스</p>
@@ -176,9 +179,100 @@
                       (ACC 메뉴에서 구매 가능)
                     </div>
                     <div class="product_toggle">
-
-                    </div>
-                     <div class="service_explain_media">
+                      <div id="Accordion_wrap">
+                        <div class="que">
+                           <span>Key Feature</span>
+                            <div class="arrow-wrap">
+                              <span class="arrow-top"><span class="material-symbols-outlined">
+                                add
+                                </span></span>
+                              <span class="arrow-bottom"><span class="material-symbols-outlined">
+                                remove
+                                </span></span>
+                            </div>
+                          </div>
+                          <div class="anw">
+                           <span>가볍게 휴대할 수 있는 포터블 사이즈의 오드 퍼퓸입니다. 언제 어디서든, 내면의 힘을 깨우는 즉각적인 리프레시를 느낄 수 있습니다.</span>
+                          </div>
+                          <div class="que">
+                            <span>Ingredients</span>
+                            <div class="arrow-wrap">
+                              <span class="arrow-top"><span class="material-symbols-outlined">
+                                add
+                                </span></span>
+                              <span class="arrow-bottom"><span class="material-symbols-outlined">
+                                remove
+                                </span></span>
+                            </div>
+                          </div>
+                          <div class="anw">
+                            <span>변성알코올, 향료, 정제수, 피이지-40하이드로제네이티드캐스터오일, 벤질살리실레이트, 시트로넬올, 시트랄, 벤질알코올, 벤질벤조에이트</span>
+                          </div>
+                          <div class="que">
+                            <span>Product Info</span>
+                            <div class="arrow-wrap">
+                              <span class="arrow-top"><span class="material-symbols-outlined">
+                                add
+                                </span></span>
+                              <span class="arrow-bottom"><span class="material-symbols-outlined">
+                                remove
+                                </span></span>
+                            </div>
+                          </div>
+                          <div class="anw">
+                            <span>용량 또는 중량: 30ml
+                              제품 주요 사양: 모든 피부용
+                              사용기한 또는 개봉 후 사용기간: 개봉 후 36개월
+                              사용 방법: 귀 뒤, 손목, 머리카락에 뿌려줍니다.
+                              화장품제조업자: ㈜지앤브이코스메틱
+                              화장품책임판매업자: ㈜논픽션
+                              제조국: 대한민국
+                              전성분: Ingredients 항목 참고
+                              기능성 화장품의 경우 화장품법에 따른 식품의약품안전처 심사필 유무: 무
+                              사용할 때의 주의사항:
+                              1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우 전문의 등과 상담할 것
+                              2) 상처가 있는 부위 등에는 사용을 자제할 것
+                              3) 보관 및 취급 시의 주의사항
+                              가) 어린이의 손이 닿지 않는 곳에 보관할 것
+                              나) 직사광선을 피해서 보관할 것
+                              품질보증기준: 본 제품은 공정거래위원회고시 소비자분쟁해결 기준에 의거 교환 또는 보상 받을 수 있습니다.
+                              소비자상담번호: 1666-7891
+                            </span>
+                          </div>
+                          <div class="que">
+                             <span>Notice</span>
+                             <div class="arrow-wrap">
+                              <span class="arrow-top"><span class="material-symbols-outlined">
+                                add
+                                </span></span>
+                              <span class="arrow-bottom"><span class="material-symbols-outlined">
+                                remove
+                                </span></span>
+                            </div>
+                            </div>
+                            <div class="anw">
+                             <span>  hello@nonfiction.kr
+                              1:1 채팅
+                             
+                             
+                             * 평일 오후 12시 이전 결제건에 한해 당일 발송 처리 됩니다.
+                             
+                             * 상품준비중 단계에서만 취소 및 주문서 수정가능하며, 배송준비중 단계에서는 불가한 점 양해 바랍니다.
+                             
+                             
+                             * [교환/반품 불가 안내]
+                             - 고객님의 변심으로 인한 교환/반품 요청이 상품을 수령한 날로부터 7일을 경과한 경우
+                             - 상품을 사용한 흔적, 상품의 가치가 훼손되어 재판매가 불가한 경우
+                             - 어떠한 상황(최초 불량 유무)이라도 상품을 세탁, 수선한 경우
+                             - 고의적으로 상품을 손상한 경우 - 상품의 부속품과 택·라벨, 상품 구성의 일부를 훼손, 제거한 경우, 본품 박스 개봉한 경우
+                             - 온라인 스토어에서 구입한 상품은 논픽션 오프라인 STOCKIST에서 교환/반품 불가 (카카오톡 선물하기 포함)
+                             - 사전 접수 없이 일방적으로 보낸 상품 또는 교환 및 환불로 처리가 불가한 경우 착불로 반송 처리됩니다.
+                             
+                             * 보다 자세한 내용은 사이트 하단 INFO -> 배송 & 교환/반품 페이지에서 확인 가능합니다.</span>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="service_explain_media">
                       <p>무료 선물 포장 서비스</p>
                         <div class="service_explain_contents">
                           <p>
@@ -188,6 +282,7 @@
                             <br>
                             기프트 박스 포장이 기본 제공되는 상품에는 추가 선물 포장 서비스 제공 불가</p>
                         </div>
+
                     </div>  
                     <div class="option_box">
                       <select name="" id="option-select" class="opt_select">
@@ -213,7 +308,6 @@
                     <div class="">
                       <button id="input_gift">선물하기</button>
                     </div>
-                    <div class="naver_widget">전자결제 시스템 추가</div>
                     <div class="total_review_btn"><a>325 Reviews</a></div>
                     
             </section>
@@ -301,7 +395,7 @@
               <div class="product-relationlist">
                 <div class="thumbnail">
                   <div class="col33">
-                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-img"><img src="./img/recommend_thumbnail1.jpg" alt=""></div>
                     <div class="thumbnail-info">
                       <div>
                         <span>DISCOVERY EDP SET</span>
@@ -312,7 +406,7 @@
                     </div>
                   </div>
                   <div class="col33">
-                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-img"><img src="./img/recommend_thumbnail2.jpg" alt=""></div>
                     <div class="thumbnail-info">
                       <div>
                         <span>GENTLE NIGHT PERFUME</span>
@@ -323,7 +417,7 @@
                     </div>
                   </div>
                   <div class="col33">
-                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-img"><img src="./img/recommend_thumbnail3.jpg" alt=""></div>
                     <div class="thumbnail-info">
                       <div>
                         <span>GENTLE NIGHT PERFUME</span>
@@ -334,7 +428,7 @@
                     </div>
                   </div>
                   <div class="col33">
-                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-img"><img src="./img/recommend_thumbnail4.jpg" alt=""></div>
                     <div class="thumbnail-info">
                       <div>
                         <span>GENTLE NIGHT PERFUME</span>
@@ -345,7 +439,7 @@
                     </div>
                   </div>
                   <div class="col33">
-                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-img"><img src="./img/recommend_thumbnail5.jpg" alt=""></div>
                     <div class="thumbnail-info">
                       <div>
                         <span>GENTLE NIGHT PERFUME</span>
@@ -356,7 +450,7 @@
                     </div>
                   </div>
                   <div class="col33">
-                    <div class="thumbnail-img"><img src="./img/thumbnail1.jpg" alt=""></div>
+                    <div class="thumbnail-img"><img src="./img/recommend_thumbnail6.jpg" alt=""></div>
                     <div class="thumbnail-info">
                       <div>
                         <span>GENTLE NIGHT PERFUME</span>
