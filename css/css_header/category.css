@@ -1,5 +1,10 @@
 /* category */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
 .category {
+  font-family: "Playfair Display", serif;
   width: 50%;
   position: relative;
   left: 50px;
@@ -40,6 +45,7 @@
   position: relative;
 }
 #textInput {
+  font-family: "Playfair Display", serif;
   border: none;
   border-bottom: 1px solid;
   background-color: rgba(0, 0, 0, 0);

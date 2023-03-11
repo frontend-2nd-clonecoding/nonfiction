@@ -39,6 +39,7 @@
 .product_header {
   text-align: center;
   font-size: 23px;
+  font-family: "Playfair Display", serif;
 }
 
 .product_detail {
@@ -51,6 +52,7 @@
 
 /* option */
 select.opt_select {
+  margin-top: 20px;
   width: 400px;
   height: 30px;
 }
@@ -61,6 +63,7 @@ select.opt_select {
 }
 
 #input_add-to-cart {
+  margin-bottom: 10px;
   width: 400px;
   height: 45px;
   border: none;
@@ -74,6 +77,7 @@ select.opt_select {
 }
 
 #input_gift {
+  margin-bottom: 10px;
   width: 400px;
   height: 45px;
   background-color: white;
@@ -86,13 +90,13 @@ select.opt_select {
 
 /* engrave_check */
 .engrave_check {
+  margin: 10px 0px 20px 0px;
   display: flex;
 }
 
 /* table */
 .review_wrapper {
   margin-top: 100px;
-  width: 950px;
   height: 500px;
 }
 .review_wrapper a {
@@ -118,8 +122,14 @@ select.opt_select {
   font-weight: 600;
   margin-bottom: 30px;
 }
-.review_btn {
+table {
+  width: 950px;
+}
+
+caption-side {
   width: 100%;
+}
+.caption-side {
   display: flex;
   justify-content: flex-end;
 }
@@ -139,7 +149,6 @@ select.opt_select {
 }
 
 .product-board-list > table {
-  width: 950px;
   font-size: 13px;
   margin-bottom: 60px;
 }
@@ -160,9 +169,16 @@ select.opt_select {
   text-align: end;
 }
 
+/* product_toggle */
+.product_toggle {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 /* recommend */
 
 .recommend_wrapper {
+  font-family: "Playfair Display", serif;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -192,6 +208,16 @@ select.opt_select {
   flex-direction: column;
   align-items: center;
 }
+.thumbnail-info {
+  font-size: 20px;
+}
+
 .thumbnail_price {
   border-top: 1px solid;
+  text-align: center;
+}
+
+.thumbnail-img:hover {
+  -webkit-filter: blur(8px);
+  transition-duration: 1s;
 }
