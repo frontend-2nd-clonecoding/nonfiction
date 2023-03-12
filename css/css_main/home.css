@@ -5,6 +5,14 @@
   list-style: none;
 }
 
+header {
+  display: flex;
+  height: 110px;
+  position: sticky;
+  top: 0px;
+  z-index: 10000;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -34,62 +42,13 @@ body #link:hover {
   color: rgb(255, 255, 255);
 }
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 /* category */
 .category {
-  position: sticky;
   font-family: "Playfair Display", serif;
-}
-
-/* category menu */
-
-.sub-menu {
-  background-color: transparent;
-  height: 0;
-  overflow: hidden;
-  transition-duration: 0.8s;
-}
-.shop:hover .sub-menu {
-  box-sizing: border-box;
-  height: 270px;
-}
-.about:hover .sub-menu {
-  box-sizing: border-box;
-  height: 90px;
-}
-.contact:hover .sub-menu {
-  box-sizing: border-box;
-  height: 70px;
-}
-#valentine_item {
-  color: #e07d9f;
-}
-.item {
-  font-size: 18px;
-}
-.search {
-  margin-top: 45px;
-  position: relative;
-}
-#textInput {
-  border: none;
-  font-family: "Playfair Display", serif;
-  border-bottom: 1px solid;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 3px 0px;
-  font-size: 16px;
-}
-#textInput::placeholder {
-  color: black;
 }
 
 /* header nav */
@@ -139,30 +98,9 @@ input#toggle:checked + .sub_language {
   font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 48;
 }
 
-/* 로고 */
-
-.logo > a {
-  /* background: none !important; */
-  /* margin: 0 auto; */
-}
-
-#logo {
-  /* background: none !important; */
-  /* display: inline-block; */
-  top: 20px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-
-  /* box-sizing: border-box; */
-  /* width: 100%; */
-  /* display: flex;
-  margin: 0 auto; */
-}
-
 main {
   position: absolute;
-  top: 60px;
+  top: -40px;
   width: 100%;
 }
 
