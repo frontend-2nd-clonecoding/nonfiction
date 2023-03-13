@@ -10,17 +10,18 @@ header {
   height: 110px;
   position: sticky;
   top: 0px;
-  z-index: 10000;
 }
 
 a {
-  color: white;
   text-decoration: none;
+}
+
+#link > a {
+  color: white;
 }
 
 body #link {
   text-align: center;
-  color: white;
   background-color: #000000;
   font-size: 12px;
   height: 30px;
@@ -38,16 +39,13 @@ body #link:hover {
   text-decoration: underline;
 }
 
-[href]:visited {
-  color: rgb(255, 255, 255);
-}
-
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 /* category */
 .category {
+  color: #000000;
   font-family: "Playfair Display", serif;
 }
 
@@ -99,9 +97,11 @@ input#toggle:checked + .sub_language {
 }
 
 main {
-  position: absolute;
-  top: -40px;
+  position: relative;
+  top: -210px;
   width: 100%;
+  z-index: -9999;
+  margin-bottom: -100px;
 }
 
 /* 메인 이미지 */
@@ -163,31 +163,87 @@ main {
   display: inline-block;
 }
 
-.linestyle {
-  margin: 0 auto;
-  line-height: 0.15px;
-  width: 94%;
-}
+/* footer */
 
-.talkbutton {
-  width: 80px;
-  height: 80px;
-  background-color: #d7d7d7;
-  border: 1px solid #d7d7d7;
-  border-radius: 50%;
-  right: 48px;
-  bottom: 48px;
-  position: fixed;
-  text-align: center;
-  justify-self: center;
-  align-items: center;
-  vertical-align: middle;
-  padding-top: 15px;
+footer {
+  height: 110px;
+  padding-top: 50px;
+  margin: 0px 50px 200px 50px;
 }
-
-.bottom-menu {
-  max-width: 100%;
+.footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 50px 50px 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+footer ul > li {
+  list-style-type: none;
+  margin: 0;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+#time {
+  font-size: 14px;
+  color: rgb(94, 94, 94, 0.5);
+  font-weight: bold;
+}
+#number {
+  font-size: 27px;
+  font-weight: 400;
+  color: rgb(44, 44, 44);
+  font-family: "Playfair Display", serif;
+}
+#number span,
+.schedule span {
+  font-size: 12px;
+  padding-right: 9px;
+  margin-bottom: 6px;
+}
+.schedule {
+  font-family: "Playfair Display", serif;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer-item {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.footer-item > a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-item > a:hover {
+  text-decoration: underline;
+}
+.flex-start {
+  margin-right: 15px;
+}
+
+.flexend {
+  display: flex;
+  width: 65%;
+  justify-content: space-evenly;
+}
+
+.footer-items {
+  margin: 0px 15px;
+  min-width: 110px;
+}
+
+.footer-items:last-child {
+  margin-right: 85px;
+}
+
+.footer-items > ul {
+  font-size: 15px;
+  margin-top: 13px;
+}
+.footer-items > ul > li {
+  padding-bottom: 5px;
+}
+.footer-items:last-child > ul > li {
+  font-family: "Playfair Display", serif;
 }
